@@ -31,6 +31,7 @@ The third line prints the file's checksum. It should match the `sfbox-windows-am
 sfbox login           # sign in with Google in your browser
 sfbox create my-box   # make your box and watch it boot
 sfbox ssh my-box      # open its terminal
+sfbox ui              # see and manage your boxes in a browser on this computer
 ```
 
 `sfbox help` lists every command, and `--explain` on any of them prints what it does as it runs.
