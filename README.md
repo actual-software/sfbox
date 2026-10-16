@@ -31,6 +31,7 @@ The third line prints the file's checksum. It should match the `sfbox-windows-am
 sfbox login           # sign in with Google in your browser
 sfbox create my-box   # make your box and watch it boot
 sfbox ssh my-box      # open its terminal
+sfbox forward my-box 3000   # open a web app running on the box's port 3000 at http://127.0.0.1:3000/
 sfbox ui              # see and manage your boxes in a browser on this computer
 ```
 
